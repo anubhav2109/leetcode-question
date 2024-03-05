@@ -1,4 +1,4 @@
-The approach to this problem is to use a two-pointer technique to find matching prefixes and suffixes. We start with two <br>pointers at the beginning and end of the string, and then iterate through the string, removing matching prefixes and <br>suffixes until the pointers meet or cross each other.<br>
+The approach to this problem is to use a two-pointer technique to find matching prefixes and suffixes. We start with two pointers at the beginning and end of the string, and then iterate through the string, removing matching prefixes and <br>suffixes until the pointers meet or cross each other.<br>
 
 Approach<br>
 Initialize two pointers, left and right, at the beginning and end of the string, respectively.<br>
