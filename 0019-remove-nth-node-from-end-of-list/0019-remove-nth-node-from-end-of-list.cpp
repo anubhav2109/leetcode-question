@@ -27,7 +27,7 @@ public:
         }
         
         // Move both pointers until the fast pointer reaches the end
-        while (fast->next) {
+        while (fast->next!=NULL) {
             fast = fast->next;
             slow = slow->next;
         }
